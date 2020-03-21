@@ -1,0 +1,45 @@
+body {
+	border: 20px solid #bdc3c7;
+	padding: 20px;
+	max-width: 700px;
+	width: 80%;
+	margin: 20px auto; 
+	/*
+	* 0px auto can be used to center in the middle
+	* top/bottom left/right shortcut is what we're using here
+	*/
+	font-family: source sans pro;
+
+}
+
+.date {
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	/*
+	* rem is relative font size compared to the root element
+	* this means we don't have to worry about what's nested inside what
+	* like when we use em.
+	*/
+}
+
+.quote {
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+}
+
+.post {
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 2.0rem;
+	color: #2c3e50;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background: #333;
+	background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
